@@ -121,7 +121,7 @@ app.get('/balance',
     }
   }
 })
-
+ 
 app.post('/deposit',
   body('amount').isInt({ min: 1 }),
   (req, res) => {
