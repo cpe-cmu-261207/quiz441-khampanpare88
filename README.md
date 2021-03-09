@@ -4,7 +4,7 @@
 * เมื่อ Clone repo เสร็จแล้ว ***ให้รันคำสั่ง npm install และคำสั่ง npm run dev*** (โค้ดจะทำการ reload อัตโนมัติเมื่อมีการแก้ไขโค้ด)
 * เมื่อทำเสร็จ จงแชร์ลิงค์ของแอพพลิเคชันที่ deploy ด้วย heroku ไว้ใน readme.md นี้
 * จงเขียนชื่อ-นามสกุล และรหัสของนักศึกษา ลงในไฟล์ readme.md นี้ 
+
 กัณฐิกา ขำแป้น 620610777
 
-
-https://{{minimal-bank-0777}}.herokuapp.com/
+https://minimal-bank-0777.herokuapp.com/
