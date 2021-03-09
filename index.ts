@@ -91,7 +91,7 @@ app.post<any, any, RegisterArgs>('/register',
     res.status(200)
     fs.writeFileSync('db.json', JSON.stringify(db))
     res.json({ message: 'Register successfully' })
-    if(!bcrypt.compareSync(body.password, user.password)){
+    if(!bcrypt.compareSync(body.password , user.password)){
       res.status(400)
       fs.writeFileSync('db.json', JSON.stringify(db))
       res.json({ message: 'Register successfully' })
